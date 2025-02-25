@@ -7,7 +7,7 @@
 
 ## **Core Functionalities**  
 
-### 🩺 **Patient & Physiotherapist Management**  
+### **Patient & Physiotherapist Management**  
 - Maintain **unique ID, name, address, and contact details** for each patient and physiotherapist.  
 - Each physiotherapist has **one or more areas of expertise** (e.g., Physiotherapy, Osteopathy, Rehabilitation).  
 - Treatments offered include:  
@@ -39,7 +39,7 @@
 
 ---
 
-## 🛠 **Technology Stack**  
+## **Technology Stack**  
 ✔️ **Java** (Core system implementation)  
 ✔️ **JUnit** (Testing framework)  
 ✔️ **Git** (Version control)  
