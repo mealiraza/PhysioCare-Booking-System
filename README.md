@@ -1,11 +1,11 @@
-# **PhysioCare Booking System** 🏥💆‍♂️  
+# **PhysioCare Booking System** 
 
-## 📌 **Overview**  
+## **Overview**  
 **PhysioCare** is a **console-based appointment booking system** for the **Boost Physio Clinic (BPC)**. It allows patients to book, manage, and attend treatments with physiotherapists based on their expertise and availability. The system also generates reports on treatment history and physiotherapist rankings.  
 
 ---
 
-## 🚀 **Core Functionalities**  
+## **Core Functionalities**  
 
 ### 🩺 **Patient & Physiotherapist Management**  
 - Maintain **unique ID, name, address, and contact details** for each patient and physiotherapist.  
@@ -17,18 +17,18 @@
   - **Mobilisation of the Spine and Joints**  
   - **Pool Rehabilitation**  
 
-### 📅 **Appointment Booking & Management**  
+### **Appointment Booking & Management**  
 - Patients can book treatments in **two ways**:  
   1. By **expertise** (view available physiotherapists & book a treatment).  
   2. By **physiotherapist name** (view their available treatments & book a session).  
 - Patients can **cancel or reschedule** appointments.  
 - An appointment is marked as **attended** when a patient checks in.  
 
-### 📆 **Treatment Timetable**  
+### **Treatment Timetable**  
 - The system manages a **4-week treatment schedule** for physiotherapists.  
 - Available **treatment times** are displayed for patient booking.  
 
-### 📊 **Reporting & Statistics**  
+### **Reporting & Statistics**  
 - At the end of the term, the system generates a report including:  
   - **Physiotherapist Name**  
   - **Treatment Name**  
@@ -43,30 +43,10 @@
 ✔️ **Java** (Core system implementation)  
 ✔️ **JUnit** (Testing framework)  
 ✔️ **Git** (Version control)  
-✔️ **Console Output** (For booking and reports)  
+✔️ **Console Output**
 
----
 
-## ⚙️ **Installation & Usage**  
 
-### 1️⃣ **Clone the Repository**  
-```bash
-git clone https://github.com/your-username/PhysioCare-Booking-System.git
-cd PhysioCare-Booking-System
-```
-
-### 2️⃣ **Compile & Run the Program**  
-```bash
-javac -d bin src/*.java  
-java -cp bin Main  
-```
-
-### 3️⃣ **Run Tests**  
-```bash
-java -cp bin org.junit.runner.JUnitCore TestSuite  
-```
----
-
-🎯 **PhysioCare** – Making physiotherapy booking **simple & efficient!** 💙💪  
+**PhysioCare** – Making physiotherapy booking **simple & efficient!**
 
 ---
