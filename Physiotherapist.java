@@ -4,6 +4,13 @@ public class Physiotherapist {
     private String area;
     private String contact;
 
+    public Physiotherapist(String id, String name, String area, String contact) {
+        this.id = id;
+        this.name = name;
+        this.area = area;
+        this.contact = contact;
+    }
+
     public String getId() {
         return id;
     }
