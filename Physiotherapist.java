@@ -1,17 +1,26 @@
 public class Physiotherapist {
-    private String id;
+    private int id;
     private String name;
     private String area;
     private String contact;
+    private String[] expertise;
 
-    public Physiotherapist(String id, String name, String area, String contact) {
+    public Physiotherapist(int id, String name, String area, String contact, String[] expertise) {
         this.id = id;
         this.name = name;
         this.area = area;
         this.contact = contact;
+        this.expertise = expertise;
     }
 
-    public String getId() {
+    public String[] getExpertise() {
+        return expertise;
+    }
+
+    public void setExpertise(String[] expertise) {
+        this.expertise = expertise;
+    }
+    public int getId() {
         return id;
     }
 
