@@ -4,13 +4,24 @@ public class Physiotherapist {
     private String area;
     private String contact;
     private String[] expertise;
+    private String[] treatments;
 
-    public Physiotherapist(int id, String name, String area, String contact, String[] expertise) {
+    public Physiotherapist(int id, String name, String area, String contact, String[] expertise,String[] treatments) {
         this.id = id;
         this.name = name;
         this.area = area;
         this.contact = contact;
         this.expertise = expertise;
+        this.treatments = treatments;
+    }
+
+
+    public String[] getTreatments() {
+        return treatments;
+    }
+
+    public void setTreatments(String[] treatments) {
+        this.treatments = treatments;
     }
 
     public String[] getExpertise() {
